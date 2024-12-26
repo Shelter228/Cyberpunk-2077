@@ -1,0 +1,38 @@
+@media (max-width: 1333px) {
+    .choice-data .data-item__spec {
+        display: none;
+    }
+    .inputtext {
+        display: none;
+    }
+}
+@media (max-width: 1085px) {
+    header ul {
+        display: none;
+    }
+    header #menu {
+        display: inline-block;
+    }
+    .splashtext {
+        text-align: center;
+    }
+    .hero-section {
+        padding: 23% 10% 82px 10%;
+    }
+}
+@media (max-width: 768px) {
+    .hero-section {
+        padding: 23% 2rem 82px 2rem
+    }
+    header {
+        padding: 0 40px;
+    }
+}
+@media (max-width: 550px) {
+    .choice-data {
+        opacity: 0%;
+    }
+    header {
+        padding: 0 20px;
+    }
+}
