@@ -1,4 +1,9 @@
-@media (max-width: 1333px) {
+@media (max-width: 1053px) {
+    header {
+        padding: 0 100px;
+    }
+}
+ @media (max-width: 1333px) {
     .choice-data .data-item__spec {
         display: none;
     }
@@ -33,13 +38,16 @@
         opacity: 0%;
     }
     header {
-        padding: 0 20px;
+        padding: 0 10px;
     }
 }
 @media (max-width: 490px ) {
     .logo {
         width: 120px;
         height: 80px;
+    }
+    header::before {
+        filter: none;
     }
 }
 /* ХЕЙДЕР АДАПТ ЗАКОНЧЕН */
@@ -113,13 +121,21 @@
         display: none;
     }
     .lucygif {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 10px;
+        top: 30px;
     }
     .mainphooto {
         padding: 10% 5% 62px 12%; ;
-        justify-content: center;
+        flex-direction: column-reverse;
+        align-items: center;
     }
     .hiscoren {
         width: 320px;
+    }
+    .program {
+        margin: 0 0 0 55px;
     }
 }

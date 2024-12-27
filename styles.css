@@ -38,7 +38,6 @@ header {
 }
 header svg {
   display: none;
-  box-shadow: 0 0 20px 0;
 }
 .first-block::after {
   content: '';
@@ -60,9 +59,9 @@ header::before {
   background-image: url(images/main-background.png);
   background-size: cover;
   background-position: top;
-  filter: blur(5px);
+  filter: blur(3px);
   z-index: -1;
-  transform: scale(1.01);
+  transform: scale(1.03);
 }
 header a {
   text-decoration: none;
