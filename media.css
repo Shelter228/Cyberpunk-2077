@@ -36,3 +36,90 @@
         padding: 0 20px;
     }
 }
+@media (max-width: 490px ) {
+    .logo {
+        width: 120px;
+        height: 80px;
+    }
+}
+/* ХЕЙДЕР АДАПТ ЗАКОНЧЕН */
+@media (max-width: 1730px) {
+    .lucyfirst  {
+        width: 300px;
+        height: 280px;
+    }
+    .lucygif  {
+        width: 300px;
+        height: 280px;
+    }
+    .mainphooto {
+        padding: 3% 20% 130px 20%;
+    }
+    h4 {
+        font-size: 29px;
+    }
+    .aboutourtrip {
+        font-size: 16px;
+    }
+    .hiscoren {
+        font-size: 13px;
+    }
+}
+@media (max-width: 1554px) {
+    .lucyfirst  {
+        width: 270px;
+        height: 260px;
+    }
+    .lucygif  {
+        width: 270px;
+        height: 260px;
+        margin: 0 0 0 70px;
+  top: 110px;
+    }
+}
+@media (max-width: 1300px) {
+    .lucyfirst {
+        opacity: 0%;
+    }
+    .lucygif {
+        width: 280px;
+        height: 290px;
+        margin: 4% 0 0 0;
+        top: 0px;
+    }
+}
+@media (max-width: 1200px) {
+    .mainphooto {
+        padding: 3% 16% 130px 16%;
+    }
+    h4 {
+        font-size: 26px;
+    }
+    .aboutourtrip {
+        font-size: 14px;
+    }
+    .hiscoren {
+        font-size: 11px;
+    }
+}
+@media (max-width: 1080px) {
+    .mainphooto {
+        padding: 3% 10% 82px 10%;
+    }
+
+}
+@media (max-width: 920px) {
+    .lucyfirst {
+        display: none;
+    }
+    .lucygif {
+        display: none;
+    }
+    .mainphooto {
+        padding: 10% 5% 62px 12%; ;
+        justify-content: center;
+    }
+    .hiscoren {
+        width: 320px;
+    }
+}
