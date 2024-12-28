@@ -1,141 +1,258 @@
 @media (max-width: 1053px) {
-    header {
-        padding: 0 100px;
-    }
+  header {
+    padding: 0 100px;
+  }
 }
- @media (max-width: 1333px) {
-    .choice-data .data-item__spec {
-        display: none;
-    }
-    .inputtext {
-        display: none;
-    }
+@media (max-width: 1333px) {
+  .choice-data .data-item__spec {
+    display: none;
+  }
+  .inputtext {
+    display: none;
+  }
 }
 @media (max-width: 1085px) {
-    header ul {
-        display: none;
-    }
-    header #menu {
-        display: inline-block;
-    }
-    .splashtext {
-        text-align: center;
-    }
-    .hero-section {
-        padding: 23% 10% 82px 10%;
-    }
+  header ul {
+    display: none;
+  }
+  header #menu {
+    display: inline-block;
+  }
+  .splashtext {
+    text-align: center;
+  }
+  .hero-section {
+    padding: 23% 10% 82px 10%;
+  }
+  .container3 {
+    padding: 8% 10% 10% 10%;
+  }
 }
 @media (max-width: 768px) {
-    .hero-section {
-        padding: 23% 2rem 82px 2rem
-    }
-    header {
-        padding: 0 40px;
-    }
+  .hero-section {
+    padding: 23% 2rem 82px 2rem;
+  }
+  header {
+    padding: 0 40px;
+  }
 }
 @media (max-width: 550px) {
-    .choice-data {
-        opacity: 0%;
-    }
-    header {
-        padding: 0 10px;
-    }
+  .choice-data {
+    opacity: 0%;
+  }
+  header {
+    padding: 0 10px;
+  }
 }
-@media (max-width: 490px ) {
-    .logo {
-        width: 120px;
-        height: 80px;
-    }
-    header::before {
-        filter: none;
-    }
+@media (max-width: 490px) {
+  .logo {
+    width: 120px;
+    height: 80px;
+  }
+  header::before {
+    filter: none;
+  }
 }
 /* ХЕЙДЕР АДАПТ ЗАКОНЧЕН */
 @media (max-width: 1730px) {
-    .lucyfirst  {
-        width: 300px;
-        height: 280px;
-    }
-    .lucygif  {
-        width: 300px;
-        height: 280px;
-    }
-    .mainphooto {
-        padding: 3% 20% 130px 20%;
-    }
-    h4 {
-        font-size: 29px;
-    }
-    .aboutourtrip {
-        font-size: 16px;
-    }
-    .hiscoren {
-        font-size: 13px;
-    }
+  .lucyfirst {
+    width: 300px;
+    height: 280px;
+  }
+  .lucygif {
+    width: 300px;
+    height: 280px;
+  }
+  .mainphooto {
+    padding: 3% 20% 130px 20%;
+  }
+  h4 {
+    font-size: 29px;
+  }
+  .aboutourtrip {
+    font-size: 16px;
+  }
+  .hiscoren {
+    font-size: 13px;
+  }
 }
 @media (max-width: 1554px) {
-    .lucyfirst  {
-        width: 270px;
-        height: 260px;
-    }
-    .lucygif  {
-        width: 270px;
-        height: 260px;
-        margin: 0 0 0 70px;
-  top: 110px;
-    }
+  .lucyfirst {
+    width: 270px;
+    height: 260px;
+  }
+  .lucygif {
+    width: 270px;
+    height: 260px;
+    margin: 0 0 0 70px;
+    top: 110px;
+  }
 }
 @media (max-width: 1300px) {
-    .lucyfirst {
-        opacity: 0%;
-    }
-    .lucygif {
-        width: 280px;
-        height: 290px;
-        margin: 4% 0 0 0;
-        top: 0px;
-    }
+  .lucyfirst {
+    opacity: 0%;
+  }
+  .lucygif {
+    width: 280px;
+    height: 290px;
+    margin: 4% 0 0 0;
+    top: 0px;
+  }
 }
 @media (max-width: 1200px) {
-    .mainphooto {
-        padding: 3% 16% 130px 16%;
-    }
-    h4 {
-        font-size: 26px;
-    }
-    .aboutourtrip {
-        font-size: 14px;
-    }
-    .hiscoren {
-        font-size: 11px;
-    }
+  .mainphooto {
+    padding: 3% 16% 130px 16%;
+  }
+  h4 {
+    font-size: 26px;
+  }
+  .aboutourtrip {
+    font-size: 14px;
+  }
+  .hiscoren {
+    font-size: 11px;
+  }
 }
 @media (max-width: 1080px) {
-    .mainphooto {
-        padding: 3% 10% 82px 10%;
-    }
+  .mainphooto {
+    padding: 3% 10% 82px 10%;
+  }
+}
+@media (max-width: 920px) {
+  .lucyfirst {
+    display: none;
+  }
+  .lucygif {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 10px;
+    top: 30px;
+  }
+  .mainphooto {
+    padding: 10% 5% 62px 12%;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .hiscoren {
+    width: 320px;
+  }
+  .program {
+    margin: 0 0 0 55px;
+  }
+}
+/* 2 БЛОК ОКОЧЕН */
+@media (max-width: 1700px) {
+  .characters {
+    width: 195px;
+    height: 180px;
+  }
+}
+
+@media (max-width: 1523px) {
+  .allpers {
+    font-size: 16px;
+  }
+  .choosepers {
+    font-size: 23px;
+  }
+  .mini-icon {
+    width: 37px;
+    height: 37px;
+  }
+  .whyhim {
+    font-size: 14px;
+  }
+  .moreinfo {
+    font-size: 13px;
+    max-width: 310px;
+  }
+  .moretext {
+    font-size: 14px;
+    max-width: 325px;
+  }
+  .characters {
+    width: 170px;
+    height: 160px;
+  }
+}
+@media (max-width: 1160px) {
+  .right-section {
+    padding: 20% 0 0 0;
+  }
 
 }
 @media (max-width: 920px) {
-    .lucyfirst {
-        display: none;
-    }
-    .lucygif {
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        right: 10px;
-        top: 30px;
-    }
-    .mainphooto {
-        padding: 10% 5% 62px 12%; ;
-        flex-direction: column-reverse;
-        align-items: center;
-    }
-    .hiscoren {
-        width: 320px;
-    }
-    .program {
-        margin: 0 0 0 55px;
-    }
+  .right-section {
+    display: none;
+  }
+  .container3 {
+    display: flex;
+    justify-content: center;
+    padding: 8% 20% 10% 30%;
+  }
+  .allpers {
+    font-size: 12px;
+  }
+  .choosepers {
+    font-size: 18px;
+  }
+  .mini-icon {
+    width: 34px;
+    height: 34px;
+  }
+  .whyhim {
+    font-size: 11px;
+  }
+  .moreinfo {
+    font-size: 10px;
+    max-width: 310px;
+  }
+  .moretext {
+    font-size: 10px;
+    max-width: 315px;
+  }
+  .left-section {
+    justify-content: center;
+  }
+  .vote  {
+    margin: 0 0 0 50px;
+  }
 }
+@media (max-width: 600px) {
+  .container3 {
+    padding: 8% 20% 10% 25%;
+  }
+
+}
+@media (max-width: 500px) {
+    .vote  {
+        margin: 0 0 0 30px;
+      }
+      .container3 {
+        display: flex;
+        justify-content: center;
+        padding: 9% 15% 1% 25%;
+      }
+      .left-section {
+        margin: 0 20px 0 0;
+      }
+    }
+
+      @media (max-width: 425px) {
+        .vote  {
+            margin: 0 0 0 15px;
+          }
+          .left-section {
+            margin: 10px 0 0 0;
+          }
+        }
+
+@media (max-width: 400px) {
+    .vote  {
+        margin: 0 0 0 13px;
+      }
+      .container3 {
+        padding: 9% 10% 1% 20%;
+      }
+      }
