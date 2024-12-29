@@ -1,3 +1,21 @@
+@media (max-width: 1440px) {
+  header {
+    padding: 0 15%;
+  }
+  .hero-section {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .container3 {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+  .container4 {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
 @media (max-width: 1053px) {
   header {
     padding: 0 100px;
@@ -27,13 +45,28 @@
   .container3 {
     padding: 8% 10% 10% 10%;
   }
+  .container4 {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
 }
 @media (max-width: 768px) {
   .hero-section {
     padding: 23% 2rem 82px 2rem;
   }
   header {
-    padding: 0 40px;
+    padding: 0 2rem;
+  }
+  .container3 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .container4 {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  .maintoppers {
+    overflow: scroll;
   }
 }
 @media (max-width: 550px) {
@@ -51,6 +84,11 @@
   }
   header::before {
     filter: none;
+  }
+}
+@media (max-width: 425px) {
+  a.program {
+    align-self: flex-start
   }
 }
 /* ХЕЙДЕР АДАПТ ЗАКОНЧЕН */
@@ -75,6 +113,10 @@
   .hiscoren {
     font-size: 13px;
   }
+  .characters {
+    width: 230px;
+    height: 220px;
+  }
 }
 @media (max-width: 1554px) {
   .lucyfirst {
@@ -90,9 +132,13 @@
 }
 @media (max-width: 1300px) {
   .lucyfirst {
-    opacity: 0%;
+    display: none;
+  }
+  .mainphooto {
+    gap: 2rem;
   }
   .lucygif {
+    position: inherit;
     width: 280px;
     height: 290px;
     margin: 4% 0 0 0;
@@ -134,100 +180,44 @@
     flex-direction: column-reverse;
     align-items: center;
   }
-  .hiscoren {
-    width: 320px;
-  }
   .program {
-    margin: 0 0 0 55px;
+    align-self: center;
+    padding: 15px 20px;
   }
 }
 /* 2 БЛОК ОКОЧЕН */
 @media (max-width: 1700px) {
-  .characters {
-    width: 195px;
-    height: 180px;
-  }
 }
 
 @media (max-width: 1523px) {
-  .allpers {
-    font-size: 16px;
-  }
-  .choosepers {
-    font-size: 23px;
-  }
   .mini-icon {
     width: 37px;
     height: 37px;
   }
-  .whyhim {
-    font-size: 14px;
-  }
-  .moreinfo {
-    font-size: 13px;
-    max-width: 310px;
-  }
-  .moretext {
-    font-size: 14px;
-    max-width: 325px;
-  }
-  .characters {
-    width: 170px;
-    height: 160px;
-  }
 }
-@media (max-width: 1160px) {
-  .right-section {
-    padding: 20% 0 0 0;
-  }
 
-}
 @media (max-width: 920px) {
   .right-section {
     display: none;
+  }
+  .left-section {
+    font-size: 40px;
   }
   .container3 {
     display: flex;
     justify-content: center;
     padding: 8% 20% 10% 30%;
   }
-  .allpers {
-    font-size: 12px;
-  }
-  .choosepers {
-    font-size: 18px;
-  }
-  .mini-icon {
-    width: 34px;
-    height: 34px;
-  }
-  .whyhim {
-    font-size: 11px;
-  }
-  .moreinfo {
-    font-size: 10px;
-    max-width: 290px;
-  }
-  .moretext {
-    font-size: 10px;
-    max-width: 315px;
-  }
   .container3 {
-    padding: 100px  100px 100px 150px ;
+    padding: 100px 100px 100px 150px;
     display: flex;
     align-items: center;
-  }
-  .left-section {
-    padding: 0;
-    justify-content: center;
   }
 }
 @media (max-width: 920px) {
   .container3 {
     padding: 100px 20px 100px 20px;
   }
-  .vote {
-    display: flex;
-    margin: 0 0 0 50px;
-  }
 }
+
+/* FIX */
