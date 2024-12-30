@@ -82,9 +82,6 @@
     width: 120px;
     height: 80px;
   }
-  header::before {
-    filter: none;
-  }
 }
 @media (max-width: 425px) {
   a.program {
@@ -184,6 +181,12 @@
     align-self: center;
     padding: 15px 20px;
   }
+  .iconmain {
+    align-items: center;
+  }
+  .vote {
+    padding: 10px 70px;
+  }
 }
 /* 2 БЛОК ОКОЧЕН */
 @media (max-width: 1700px) {
@@ -219,5 +222,30 @@
     padding: 100px 20px 100px 20px;
   }
 }
-
-/* FIX */
+/* 4 КОНТЕЙНЕР */
+@media (max-width: 1410px) {
+  .line2 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 920px) {
+  .topper-item {
+  min-width: 222px;
+  border-radius: 20px;
+  position: relative;
+  flex-grow: 1;
+  display: flex;
+}
+.line2 {
+  font-size: 10px;
+}
+.container4 {
+  padding: 3% 5% 30% 5%;
+}
+.overlay {
+  padding: 5px 20px;
+}
+.overlay .buton {
+  margin: 0 0 20px 0;
+}
+}

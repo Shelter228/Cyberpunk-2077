@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <title>Cyberpunk 2077</title>
-    <link rel="stylesheet" href="fixed_styles.css">
+    <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="media.css">
 </head>
 
@@ -49,7 +49,7 @@
                 </div>
             </section>
     </div>
-    <div class="mainphooto">
+    <div id="container2" class="mainphooto">
 
         <img class="lucyfirst" src="images/люсиmored.jpg" alt="">
         <img class="lucygif" src="images/lucy.gif" alt="">
@@ -62,10 +62,10 @@
                 dream is to escape to the moon, leaving behind the city's chaos. Silver hair and piercing eyes reflect
                 her determination. Once trapped in brutal experiments, she now fights for freedom with unmatched hacking
                 skills.</p>
-            <a class="program" href="">study the character</a>
+            <a class="program" href="#container3">study the character</a>
         </div>
     </div>
-    <div class="container3">
+    <div id="container3" class="container3">
         <div class="minibox">
             <div class="left-section">
                 <div>
@@ -102,53 +102,83 @@
                         </div>
 
                     </div>
-                    <a href="" class="vote"> Vote</a>
+                    <a href="#container4" class="vote"> Vote</a>
                 </div>
 
             </div>
             <div class="right-section">
                 <div class="right-section-text">
                     <div class="char-wrap">
-                        <img class="characters lusy " src="images/люси первая.jpg" alt="">
-                        <img class="characters kivi" src="images/киви.jpg" alt="">
+                        <a href="#container2">
+                            <img class="characters lusy " src="images/люси первая.jpg" alt="">
+                        </a>
+                        <a href="#container4">
+                            <img class="characters kivi" src="images/кивитоп.jpg" alt="">
+                        </a>
                     </div>
                     <div class="char-wrap">
-                        <img class="characters devid" src="images/девид.jpg" alt="">
-                        <img class="characters  rebekka" src="images/ребекка.jpg" alt="">
+                        <a href="#container4">
+                            <img class="characters devid" src="images/девид.jpg" alt="">
+                        </a>
+                        <a href="#container4">
+                            <img class="characters  rebekka" src="images/ребекка.jpg" alt="">
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container4">
+    <div id="container4" class="container4">
         <div class="textcont4">
             <p class="version">top three by rating</p>
             <h3>is currently in the lead</h3>
         </div>
         <div class="maintoppers">
             <div class="topper-item">
-                <img class="toppers" src="images/девидрейтинг.jpg" alt="">
+                <img class="toppers" src="images/девидтоп.jpg" alt="">
+                <img class="reyting" src="images/рейтинг (2).png" alt="">
                 <div class="overlay">
-                    <h3 class="line1">Top Rating</h3>
-                    <p class="line2">This is some additional text that will appear when you hover over the image.</p>
-                    <button class="bbutton">Read More</button>
+                    <div class="right-text">
+                        <h3 class="line1">Devid</h3>
+                        <h4>3</h4>
+                    </div>
+                    <p class="line2">David Martinez is the main protagonist of *Cyberpunk: Edgerunners*. A teenager from
+                        Night City who loses his mother</p>
+                    <button class="buton">Vote</button>
                 </div>
             </div>
             <div class="topper-item">
-                <img class="toppers" src="images/девидрейтинг.jpg" alt="">
+                <img class="toppers" src="images/киви.jpg" alt="">
+                <img class="reyting" src="images/рейтинг.png" alt="">
                 <div class="overlay">
-                    <h3 class="line1">Top Rating</h3>
-                    <p class="line2">This is some additional text that will appear when you hover over the image.</p>
-                    <button class="button">Read More</button>
+                    <div class="right-text">
+                        <h3 class="line1">Kivi</h3>
+                        <h4>1</h4>
+                    </div>
+                    <p class="line2">Kiwi is a skilled netrunner from *Cyberpunk: Edgerunners*. A quiet and calculating
+                        member of the crew, she relies
+                    </p>
+                    <button class="buton">Vote</button>
+                </div>
+            </div>
+            <div class="topper-item">
+                <img class="toppers" src="images/ребеккатоп.jpg" alt="">
+                <img class="reyting" src="images/рейтинг (1).png" alt="">
+                <div class="overlay">
+                    <div class="right-text">
+                        <h3 class="line1">Rebecca</h3>
+                        <h4>2</h4>
+                    </div>
+                    <p class="line2">Rebecca is a fiery and unpredictable solo in *Cyberpunk: Edgerunners*. Known for
+                        her love of chaos and loyalty to the crew</p>
+                    <button class="buton">Vote</button>
+                </div>
+            </div>
+
         </div>
+
     </div>
-    <div class="topper-item">
-        <img class="toppers" src="images/девидрейтинг.jpg" alt="">
-        <div class="overlay">
-            <h3 class="line1">Top Rating</h3>
-            <p class="line2">This is some additional text that will appear when you hover over the image.</p>
-            <button class="button">Read More</button>
-        </div>
+
     </div>
     </main>
 </body>
