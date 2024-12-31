@@ -557,5 +557,37 @@ h3 {
 }
 /* БЛОК ОКОНЧЕН */
 .container5 {
-  padding: 20% 15% 20% 15%;
+  max-width: 2000px;
+  padding: 5% 0% 20% 0%;
+  background: linear-gradient(to bottom, #1b1b2f, #0f0f1f, #000020);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.maincard {
+  border-radius: 5px;
+  padding: 8px;
+  background-color: #c9c9c9;
+  max-width: 700px;
+  display: flex;
+}
+.maincardimg {
+  width: 230px;
+  height: 260px;
+  border-radius: 6px;
+}
+.maincardtext {
+  color: #000000;
+  display: flex; gap: 20px;
+  flex-direction: column;
+  margin: 0 0 0 20px;
+}
+.bigfontcard {
+  padding: 20px 0;
+}
+.datecard {
+  display: flex;
+  justify-content: space-between;
+  margin: 50px 0 0 0;
 }
