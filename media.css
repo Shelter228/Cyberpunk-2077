@@ -261,6 +261,10 @@
   .maincard {
     max-width: 600px;
   }
+  .maincardimg {
+    width: 240px;
+  height: 280px;
+  }
 }
 @media (max-width: 1500px) {
   .maincard {
@@ -292,10 +296,19 @@
   .maincard {
     max-width: 420px;
   }
+  .datecard {
+    margin: 0px 0 0 0;
+  }
 }
 @media (max-width: 1090px) {
   .maincard {
     max-width: 390px;
+  }
+  .moreinfocard {
+    font-size: 10px;
+  }
+  .bigfontcard {
+    font-size: 14px;
   }
 }
   @media (max-width: 920px) {
@@ -303,7 +316,10 @@
       display: flex;
       flex-direction: column;
       flex-wrap: nowrap;
-      padding: 5% 5% 20% 5%;
+      padding: 5% 5% 3% 5%;
+    }
+    .datecard {
+      margin: 0px 0 0 0;
     }
     .maincardimg {
       width: 220px;
@@ -325,7 +341,7 @@
 
 @media (max-width: 763px) {
     .container5 {
-      padding: 5% 5% 10% 5%;
+      padding: 5% 5% 1% 5%;
       display: flex;
       flex-direction:row;
       justify-content: flex-start;
@@ -344,14 +360,213 @@
     flex-direction: column;
   }
   .maincardtext {
-    font-size: 13px;
+    font-size: 11px;
     flex-direction: column;
+    align-items: flex-start;
+    margin: 0 5px;
   }
   .bigfontcard {
+    font-size: 15px;
     padding: 10px 0 0 0;
   }
   .datecard {
-    margin: 10px 0 0 0;
+    margin: 5px 0;
+    display: flex;
+    gap: 90px;
   }
 }
+/* контейнер6 */
+@media (max-width: 1196px) {
+  .comonblock {
+    width: 210px;
+    height: 220px;
+  }
+  .bigblock {
+     width: 210px;
+    height: 220px;
+  }
+}
+@media (max-width: 763px) {
+  .container6main {
+    background: linear-gradient(to bottom, #000020, #0f0f1f, #1b1b2f);
+    width: 100%;
+    padding: 5% 5% 20% 5%;
+    
+  }
+  .textcont6 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    margin: 0 0 30px 0;
+  }
+  .photostextcont6 {
+    color: #cdcd01;
+  }
+  .beautifulcont6 {
+    color: white;
+    font-size: 24px;
+  }
+  .comonblock {
+    background: linear-gradient(to bottom, #000030, #0f0f1f, #1b1b2f);
+    width: 279px;
+    height: 253px;
+    border-radius: 10px;
+  }
+  .container6 {
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: flex-start;
+    overflow-x: auto;
+  }
+  .bigblock {
+    background: linear-gradient(to bottom, #000010, #0f0f1f, #1b1b2f);
+    width: 279px;
+    height: 255px;
+    border-radius: 10px;
+  }
+  .wancolon {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+  .toocolon {
+      display: flex;
+      gap: 20px;
+  }
+}
+/* межблочное меню*/
+
+@media (max-width: 1243px) {
+  .interconnect {
+    width: 1080px;
+  }
+}
+@media (max-width: 1090px) {
+  .helpproect {
+    font-size: 25px;
+  }
+  .interconnect {
+    max-width:  900px;
+  }
+}
+@media (max-width: 980px) {
+  .buttoncheck {
+    width: 100%;
+  }
+  input {
+    width: 100%;
+  }
+  .politika {
+    max-width: 100%;
+  }
+  .supporttwo {
+    flex-grow: 2;
+  }
+  .interconnect {
+    bottom:  -120px;
+    height: 250px;
+  }
+  .helpproect {
+   max-width: 100%;
+  }
+  .support {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .interconnect {
+    padding: 25px 60px;
+  }
+    .interconnecttext {
+      display: block ;
+    }
+}
+@media (max-width: 910px) {
+  .interconnect {
+    max-width:  700px;
+  }
+}
+@media (max-width: 713px) {
+  .interconnect {
+    max-width:  600px;
+  }
+}
+@media (max-width: 617px) {
+  .support {
+    display: flex;
+    align-items: flex-start;
+  }
+  .interconnect {
+    gap: 20px;
+    padding: 20px 10px 30px 10px;
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 100%;
+    position: static;
+  }
+  .e-mailenter {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttoncheck {
+    width: 50%;
+  }
+  .interconnect {
+    bottom:  -120px;
+    height: 350px;
+  }
+  .supporttwo  {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .support {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .email {
+    margin: 5px 0;
+  }
+}
+@media (max-width: 420px) {
+  .interconnect {
+    bottom:  -120px;
+    height: 380px;
+  }
+}
+@media (max-width: 1500px) {
+  .containerfooter {
+   padding: 13% 8% 5% 8%;
+  }
+  .footermoretext {
+    max-width: 300px;
+  }
+}
+@media (max-width: 1000px) {
+  .containerfooter {
+    flex-wrap: wrap;
+    padding: 20% 10% 5% 10%;
+  }
+}
+@media (max-width: 751px) {
+  .containerfooter {
+    flex-direction: column;
+    gap: 40px;
+    padding: 25% 5% 5% 5%;
+  }
+  .contacts {
+    margin: 50px 0 30px 0;
+  }
+  }
+  @media (max-width: 616px) {
+    .containerfooter {
+      padding: 5% 5% 5% 5%;
+    }
+  }
+
 

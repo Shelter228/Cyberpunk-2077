@@ -18,6 +18,7 @@
 }
 html {
   scroll-behavior: smooth;
+  background-color: #000000;
 }
 body {
   width: 100%;
@@ -353,6 +354,7 @@ h4 {
   gap: 9px;
 }
 .vote {
+  color: black;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -556,19 +558,21 @@ h3 {
   justify-content: center;
 }
 /* БЛОК ОКОНЧЕН */
-.container5 {
-  max-width: 2000px;
-  padding: 5% 0% 20% 0%;
+.maincontainer5 {
+  max-width: 2500px;
+  padding: 5% 0% 5% 0%;
   background: linear-gradient(to bottom, #1b1b2f, #0f0f1f, #000020);
+}
+.container5 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 10px;
+  gap: 20px;
 }
 .maincard {
   border-radius: 5px;
   padding: 8px;
-  background-color: #c9c9c9;
+  background-color: #0f0d2c;
   max-width: 700px;
   display: flex;
 }
@@ -578,16 +582,212 @@ h3 {
   border-radius: 6px;
 }
 .maincardtext {
-  color: #000000;
-  display: flex; gap: 20px;
+  color: white;
+  display: flex;
+  gap: 20px;
   flex-direction: column;
   margin: 0 0 0 20px;
 }
 .bigfontcard {
   padding: 20px 0;
+  font-size: 20px;
+  color: #c9c900;
+  max-width: 250px;
+}
+
+.moreinfocard {
+  transition: all 0.8s;
+  margin: 0 5px 0 0;
+}
+.moreinfocard:hover {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #c9c900;
+  transform: scale(1.1);
 }
 .datecard {
   display: flex;
   justify-content: space-between;
-  margin: 50px 0 0 0;
+  margin: 40px 0 0 0;
+}
+/* КОНТЕЙНЕР 5 ОКНОНЧЕН */
+.container6main {
+  background: linear-gradient(to bottom, #000020, #0f0f1f, #1b1b2f);
+  width: 100%;
+  padding: 8% 15% 10% 15%;
+}
+.textcont6 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 5px;
+  margin: 0 0 30px 0;
+}
+.photostextcont6 {
+  color: #cdcd01;
+}
+.beautifulcont6 {
+  color: white;
+  font-size: 24px;
+}
+.comonblock {
+  background: linear-gradient(to bottom, #000030, #0f0f1f, #1b1b2f);
+  width: 279px;
+  height: 253px;
+  border-radius: 10px;
+}
+.container6 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.bigblock {
+  background: linear-gradient(to bottom, #000010, #0f0f1f, #1b1b2f);
+  width: 578px;
+  height: 255px;
+  border-radius: 10px;
+}
+.wancolon {
+  display: flex;
+  gap: 20px;
+}
+.toocolon {
+  display: flex;
+  gap: 20px;
+}
+.container6main .chapter {
+  margin: 50px 0 100px 0;
+}
+/* КОНТЕЙНЕР 7 */
+.interconnect {
+  position: absolute;
+  bottom: -100px;
+  background: linear-gradient(to bottom, #83838b, #55555a, #000000);
+
+color: rgb(216, 216, 216);
+
+  box-shadow: 0 -6px 10px rgba(0, 0, 0, 0.2);
+  padding: 40px 60px;
+  height: 200px;
+  width: 1210px;
+  border-radius: 10px;
+}
+.interconnecttext {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.sizeblock {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.buttoncheck {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  width: 250px;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: #808b02;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+.buttoncheck:hover {
+  background-color: rgb(197, 197, 197);
+  color: black;
+  transform: scale(1.05);
+}
+.e-mailenter {
+  display: flex;
+  flex-grow: 1;
+  gap: 20px;
+}
+input {
+  height: 50px;
+}
+.politika {
+  margin: 15px 0 0 7px;
+  max-width: 500px;
+  cursor: pointer;
+  transition: all 0.7s ease;
+}
+.politika:hover {
+  text-decoration: underline;
+  transform: scale(1.02);
+}
+.helpproect {
+  font-size: 26px;
+  color: #c5d702;
+}
+.email {
+  margin: 0 0 10px 7px;
+}
+.support {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+/* Новый блок */
+
+.containerfooter {
+  padding: 13% 20% 5% 20%;
+  background: linear-gradient(to bottom, #000000, #0f0f1f, #020203);
+  color: rgb(183, 183, 183);
+  display: flex;
+  justify-content: space-between;
+}
+
+.websitecyberpunk {
+  font-size: 18px;
+  font-weight: 800;
+}
+.footermoretext {
+  margin: 20px 0 0 0;
+  max-width: 400px;
+}
+.contacts {
+  margin: 50px 0 20px 0;
+  display: flex;
+  gap: 30px;
+}
+.number {
+  text-decoration: underline;
+}
+.footericons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.team {
+  margin: 0 0 20px 0;
+  font-size: 22px;
+  font-weight: 700;
+}
+.newtext {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.new {
+  background-color: rgb(213, 203, 5);
+  color: #000;
+  padding: 2px 15px;
+  border-radius: 6px;
+  margin: 0 0 3px 0;
+}
+.footermoretext2 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0 0 0 3px;
+}
+.footermoretext3 {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin: 0 0 0 3px;
 }
