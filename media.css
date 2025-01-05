@@ -15,6 +15,50 @@
     padding-right: 15%;
   }
 }
+@media (max-width: 550px) {
+  .splashtext {
+    display: none;
+  }
+  .menu {
+    margin: 20px 20px 0 0;
+  }
+}
+
+@media (max-width: 878px) {
+  .menu {
+    margin: 20px 20px 0 0;
+    gap: 10px;
+  }
+}
+@media (min-width: 878px) {
+  .navbar {
+    position: relative;
+  }
+  .menu {
+    display: flex;
+    flex-direction: row;
+    position: static;
+    background-color: transparent;
+  }
+
+  .menu li {
+    border: none;
+  }
+
+  .menu li a {
+    color: white;
+  }
+
+  .menu-icon {
+    display: none;
+  }
+}
+@media (max-width: 764px) {
+  .menu {
+    margin: 20px 0 0 0;
+  }
+
+}
 
 @media (max-width: 1053px) {
   header {
@@ -34,7 +78,10 @@
     display: none;
   }
   header #menu {
+    position: relative;
     display: inline-block;
+    width: 30px;
+    height: 25px;
   }
   .splashtext {
     text-align: center;
@@ -73,8 +120,14 @@
   .choice-data {
     opacity: 0%;
   }
+  .menu-icon {
+    width: 20px;
+    height: 20px;
+    display: flex;
+    gap: 5px;
+  }
   header {
-    padding: 0 10px;
+    padding: 0 20px 0 10px;
   }
 }
 @media (max-width: 490px) {
@@ -255,6 +308,9 @@
     border-radius: 20px;
     display: flex;
   }
+  .container4 {
+    padding: 3% 1% 7% 5%;
+  }
 }
 /* 5 КОНТЕЙНЕР */
 @media (max-width: 1755px) {
@@ -341,12 +397,13 @@
 
 @media (max-width: 763px) {
     .container5 {
-      padding: 5% 5% 1% 5%;
+      padding: 5% 1% 1% 5%;
       display: flex;
       flex-direction:row;
       justify-content: flex-start;
       width: 100%;
       overflow-x: scroll;
+      gap: 10px;
     }
     .maintoppers {
       justify-content: flex-start;
@@ -390,8 +447,7 @@
   .container6main {
     background: linear-gradient(to bottom, #000020, #0f0f1f, #1b1b2f);
     width: 100%;
-    padding: 5% 5% 20% 5%;
-    
+    padding: 5% 1% 20% 5%;
   }
   .textcont6 {
     display: flex;
@@ -507,6 +563,7 @@
     height: 300px;
     width: 100%;
     position: static;
+    border-radius: 0;
   }
   .e-mailenter {
     display: flex;
@@ -539,9 +596,9 @@
     height: 380px;
   }
 }
-@media (max-width: 1500px) {
+@media (max-width: 1600px) {
   .containerfooter {
-   padding: 13% 8% 5% 8%;
+   padding: 13% 9% 5% 10.5%;
   }
   .footermoretext {
     max-width: 300px;

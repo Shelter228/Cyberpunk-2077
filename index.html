@@ -16,36 +16,49 @@
             <a href="">
                 <img class="logo" src="images/logo.png" alt="">
             </a>
-            <svg id="menu" width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                    d="M4.5 7.5C4.5 7.10218 4.65804 6.72064 4.93934 6.43934C5.22064 6.15804 5.60218 6 6 6H24C24.3978 6 24.7794 6.15804 25.0607 6.43934C25.342 6.72064 25.5 7.10218 25.5 7.5C25.5 7.89782 25.342 8.27936 25.0607 8.56066C24.7794 8.84196 24.3978 9 24 9H6C5.60218 9 5.22064 8.84196 4.93934 8.56066C4.65804 8.27936 4.5 7.89782 4.5 7.5ZM4.5 15C4.5 14.6022 4.65804 14.2206 4.93934 13.9393C5.22064 13.658 5.60218 13.5 6 13.5H24C24.3978 13.5 24.7794 13.658 25.0607 13.9393C25.342 14.2206 25.5 14.6022 25.5 15C25.5 15.3978 25.342 15.7794 25.0607 16.0607C24.7794 16.342 24.3978 16.5 24 16.5H6C5.60218 16.5 5.22064 16.342 4.93934 16.0607C4.65804 15.7794 4.5 15.3978 4.5 15ZM13.5 22.5C13.5 22.1022 13.658 21.7206 13.9393 21.4393C14.2206 21.158 14.6022 21 15 21H24C24.3978 21 24.7794 21.158 25.0607 21.4393C25.342 21.7206 25.5 22.1022 25.5 22.5C25.5 22.8978 25.342 23.2794 25.0607 23.5607C24.7794 23.842 24.3978 24 24 24H15C14.6022 24 14.2206 23.842 13.9393 23.5607C13.658 23.2794 13.5 22.8978 13.5 22.5Z"
-                    fill="white" />
-            </svg>
-            <ul>
+            <nav class="navbar">
+            <input type="checkbox"  id="menu-toggle" class="menu-toggle">
+            <label for="menu-toggle"  class="menu-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+            <ul class="menu">
                 <li class="header-item"><a href="">Home</a></li>
                 <li class="header-item"><a href="">About</a></li>
-                <li class="header-item"><a href="">Tour programm</a></li>
+                <li class="header-item"><a href="">Tour</a></li>
                 <li class="header-item"><a href="">Price</a></li>
                 <li class="header-item"><a href="">Contacts</a></li>
             </ul>
+        </nav>
         </header>
         <main class="main">
             <section class="hero-section">
                 <h1 class="splashtext">CyberPunk Legacy</h1>
                 <div class="choice-data">
                     <div class="data-item">
-                        <input type="text" placeholder="Event location">
-                        <p class="inputtext">choose list</p>
+                        <select name="options">
+                            <option value="1">series</option>
+                            <option value="2">1</option>
+                            <option value="3">2</option>
+                            <option value="3">3</option>
+                          </select>
+                        <p class="inputtext">select series</p>
                     </div>
                     <div class="data-item">
-                        <input type="date" placeholder="Дата похода">
+                        <input type="date" >
                         <p class="inputtext">select radius</p>
                     </div>
                     <div class="data-item data-item__spec">
-                        <input type="text" placeholder="Участники">
-                        <p class="inputtext">minimum 4 people</p>
+                        <select name="options">
+                            <option value="1">character</option>
+                            <option value="2">Lucy</option>
+                            <option value="3">Devid</option>
+                            <option value="3">Rebecca</option>
+                          </select>
+                        <p class="inputtext">choose a character</p>
                     </div>
-                    <a class="button" href="">Donate</a>
+                    <a class="button" href="#containerfooter">Donate</a>
                 </div>
             </section>
     </div>
@@ -177,10 +190,10 @@
 
         </div>
         <div class="inline">
-            <a class="chapter" href="">next chapter</a>
+            <a class="chapter" href="#container5">next chapter</a>
         </div>
     </div>
-    <div class="maincontainer5">
+    <div id="container5" class="maincontainer5">
         <div class="container5">
             <div class="maincard"><img class="maincardimg" src="images/девидменю.jpg" alt="">
                 <div class="maincardtext">
@@ -217,7 +230,7 @@
                     </div>
                 </div>
             </div>
-            <div class="maincard"><img class="maincardimg" src="images/люсименю.jpg" alt="">
+            <div class="maincard"><img class="maincardimg dda" src="images/люсименю.jpg" alt="">
                 <div class="maincardtext">
                     <p class="bigfontcard">Lucy is a skilled netrunner with ambition.</p>
                     <p>Lucy is a complex netrunner, shaped by her past. She craves freedom, constantly battling inner
@@ -230,10 +243,10 @@
             </div>
         </div>
         <div class="inline">
-            <a class="chapter" href="">next chapter</a>
+            <a class="chapter" href="#container6">next chapter</a>
         </div>
     </div>
-    <div class="container6main">
+    <div id="container6"  class="container6main">
         <div class="textcont6">
             <p class="photostextcont6">cyberpunk photos</p>
             <p class="beautifulcont6">beautiful places</p>
@@ -251,7 +264,7 @@
             </div>
         </div>
         <div class="inline">
-            <a class="chapter" href="">next chapter</a>
+            <a class="chapter" href="#containerfooter">next chapter</a>
         </div>
     </div>
     <div class="sizeblock">
@@ -274,7 +287,7 @@
             </div>
         </div>
     </div>
-    <div class="containerfooter">
+    <div id="containerfooter"  class="containerfooter">
         <div class="footer-text-1">
             <p class="websitecyberpunk">cyberpunk website</p>
             <p class="footermoretext" >I would like you to support us, it doesn't matter how much you give, every penny will help, in the future
@@ -284,21 +297,21 @@
                 <p class="number" >+7(938)-016-96-99</p>
             </div>
             <div class="footericons">
-                <img src="images/вк.png" alt="">
-                <img src="images/пинтерес.png" alt="">
-                <img src="images/скайп.png" alt="">
-                <img src="images/телеграмм.png" alt="">
+                <img class="footericon" src="images/вк.png" alt="">
+                <img class="footericon" src="images/пинтерес.png" alt="">
+                <img class="footericon" src="images/скайп.png" alt="">
+                <img class="footericon" src="images/телеграмм.png" alt="">
         </div>
     </div>
     <div class="footer-text-2">
         <p class="team" >our team and more</p>
         <div class="footermoretext2">
-            <p>  our start</p>
-            <p>as it was all planned</p>
-            <p>what difficulties were there</p>
-            <p>what are we planning next?</p>
+            <p class="footerhovertext a" >our start</p>
+            <p class="footerhovertext b" >as it was all planned</p>
+            <p class="footerhovertext c" >what difficulties were there</p>
+            <p class="footerhovertext d" >what are we planning next?</p>
             <div class="newtext">
-            <P>what we expect from you next year   <div class="new">new</div> </P>
+            <P class="footerhovertext e" >what we expect from you next year   <div class="new">new</div> </P>
         </div>
     </div>
 
@@ -306,10 +319,10 @@
     <div class="footer-text-3">
         <p class="team" >inspirations and plans</p>
         <div class="footermoretext3">
-        <p>What inspired us?</p>
-        <P>what is our goal</P>
-        <p>our members</p>
-        <p>contacts for communication</p>
+        <p class="odin hovers" >What inspired us?</p>
+        <P class="dva hovers" >what is our goal</P>
+        <p class="tri hovers">our members</p>
+        <p class="chetiri hovers" >contacts for communication</p>
     </div>
     </div>
     </main>
